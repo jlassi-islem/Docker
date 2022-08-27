@@ -1,5 +1,5 @@
 # dockerfile (blueprint for building images) , image(template for running containers) , container (running process for ur app)
-FROM python:3.9
+FROM python:3.10
 
 # add our file into a container 
 ADD main.py . 
