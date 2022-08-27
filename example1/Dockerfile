@@ -5,7 +5,7 @@ FROM python:3.10
 ADD main.py . 
 
 #install the third party libraries
-RUN pip install requests beautifulsoup4
+RUN pip install requests beautifulsoup4 
 
 # cmd that will be executed when the container is started 
 CMD ["python", "./main.py"]
